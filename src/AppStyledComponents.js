@@ -20,7 +20,7 @@ const Button = styled.button`
   cursor: pointer;
   font-size: 18px;
   &:hover {
-   background-color: ${props => props.secondary ? 'gainsboro' : 'dodgerblue'};
+    background-color: ${props => props.secondary ? 'gainsboro' : 'dodgerblue'};
   }
   @media (max-width: 768px) {
     font-size: 32px;
